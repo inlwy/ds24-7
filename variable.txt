@@ -2,7 +2,7 @@
 {hour:1} - Hour | 24-hour format | 00 - 23
 {hour:2} - Hour | 12-hour format | 00 - 12
 {min:1} - Minute | 24-hour format | 00 - 59
-{min:2} - Minute | 24-hour format | 00 - 59 AM or 00 - 59 PM
+{min:2} - Minute | 12-hour format | 00 - 59 AM or 00 - 59 PM
 {time:24hr} - 20:23
 {time:12hr} - 8:23 PM
 
@@ -96,8 +96,10 @@
 
 - Emoji -
 {emoji:random} - Random emoji
-{emoji:time} - Dawn emoji based on time | 🌤️ , ☀️ , 🌙
-{emoji:clock} - Clock emoji based on time | 🕖
+{emoji:time} - Dawn emoji based on 24-hr time | 🌤️ , ☀️ , 🌙
+{emoji:time12} - Dawn emoji based on 12-hr time | 🌤️ , ☀️ , 🌙
+{emoji:clock} - Clock emoji based on 24-hr time | 🕖
+{emoji:clock12} - Clock emoji based on 12-hr time | 🕐
 {emoji:hearts} - One of the hearts is displayed randomly | 🤍
 
 - Add-ons -
