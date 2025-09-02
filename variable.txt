@@ -90,7 +90,7 @@
 {uptime:seconds} - Uptime | in seconds | 58
 
 - User -
-{user:name} - Username | in love w/ you
+{user:name} - Username | bitemebtchs
 {user:icon} - User image | Get URL (customstatus not working)
 {user:banner} - User banner | Get URL (customstatus not working)
 
