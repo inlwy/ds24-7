@@ -82,23 +82,30 @@
 
 ## SYSTEM VARIABLES
 
-{ping} - Ping value | in ms | 99
-{patch} - Show PATCH | 2.1.0
-{cpu:name} - CPU name | Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
-{cpu:cores} - CPU cores | 4
-{cpu:speed} - CPU speed | in GHz | 2.0
-{cpu:usage} - CPU usage | in percentage % | 99
-{ram:usage} - RAM usage | in percentage % | 99
-{uptime:days} - Uptime | in days | 1
-{uptime:hours} - Uptime | in hours | 20
-{uptime:minutes} - Uptime | in minutes | 57
-{uptime:seconds} - Uptime | in seconds | 58
+{ping} - Discord WebSocket ping (ms)
+{patch} - Bot version
+{cpu:name} - CPU model name
+{cpu:cores} - Number of CPU cores
+{cpu:speed} - CPU speed (GHz)
+{cpu:usage} - CPU usage percentage
+{ram:usage} - RAM usage percentage
+{uptime:days} - Bot uptime (days)
+{uptime:hours} - Bot uptime (hours)
+{uptime:minutes} - Bot uptime (minutes)
+{uptime:seconds} - Bot uptime (seconds)
 
 ## USER VARIABLES
 
 {user:name} - Username / bitemebtchs
-{user:icon} - User image / in customstatus not working
-{user:banner} - User banner / in customstatus not working
+{user:icon} - User avatar URL / in customstatus not working
+{user:banner} - User banner URL / in customstatus not working
+
+## GUILD VARIABLES (Functions)
+
+{guild=members:SERVERID} - Server member count
+{guild=name:SERVERID} - Server name
+{guild=icon:SERVERID} - Server avatar URL / in customstatus not working
+{guild=owner:SERVERID} - Server owner name
 
 ## EMOJI VARIABLES
 
