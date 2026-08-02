@@ -36,20 +36,6 @@
 {country} - Country name
 {temp:c} - Temperature in Celsius (e.g., "29°C")
 {temp:f} - Temperature in Fahrenheit (e.g., "84.2°F")
-{maxtemp:c} - Maximum temperature in celsius for the day
-{maxtemp:f} - Maximum temperature in fahrenheit for the day
-{mintemp:c} - Minimum temperature in celsius for the day
-{mintemp:f} - Minimum temperature in fahrenheit for the day
-{avgtemp:c} - Average temperature in celsius for the day
-{avgtemp:f} - Average temperature in fahrenheit for the day
-{maxwind:kph} - Maximum wind speed (km/h)
-{maxwind:mph} - Maximum wind speed (mph)
-{tprecip:mm} - Total precipitation in milimeter
-{tprecip:in} - Total precipitation in inches
-{tsnow:cm} - Total snowfall in centimeters
-{avgvis:km} - Average visibility in kilometer
-{avgvis:mil} - Average visibility in miles
-{avghumidity} - Average humidity as percentage
 {wind:kph} - Wind speed (km/h) 3.6
 {wind:mph} - Wind speed (mph) 2.2 
 {wind:degree} - Wind direction in degrees (e.g., "160°")
@@ -73,12 +59,20 @@
 {humidity} - Humidity / Percentage % (e.g., "52")
 {cloud} - Clouds / Percentage % (e.g., "23")
 {uv} - UV index / Index (e.g., "1")
+{willit:rain} - Will it will rain or not (1/0 Yes/No)
+{chance:rain} - Chance of rain / Percentage % (e.g., "34")
+{willit:snow} - Will it snow or not (1/0 Yes/No)
+{chance:snow} - Chance of snow / Percentage % (e.g., "25")
+{wetbulb:c} - Wet bulb temperature / Celsius °C (e.g., "24.7")
+{wetbulb:f} - Wet bulb temperature / Fahrenheit °F (e.g., "62.1")
 {co} - Carbon monoxide / Unit μg/m3 (e.g., "260.4")
 {no2} - Nitrogen dioxide / Unit μg/m3 (e.g., "1.8")
 {o3} - Ozone / Unit μg/m3 (e.g., "0.9")
 {so2} - Sulphur dioxide / Unit μg/m3 (e.g., "0.2")
 {pm2.5} - PM 2.5 dust value / Unit μg/m3 (e.g., "4.3")
 {pm10} - PM 10 dust value / Unit μg/m3 (e.g. "4.8")
+{index:epa} - US EPA standard
+{index:defra} - UK Defra Index
 
 ## SYSTEM VARIABLES
 
